@@ -1,6 +1,6 @@
 /*
- * ãƒ–ãƒ­ãƒƒã‚¯é–‹é–‰å‡¦ç†
- * 2015/12/21 ãƒœã‚¿ãƒ³ç”»åƒã®éžè¡¨ç¤ºå‡¦ç†ã‚’è¡Œã‚ãªã„
+ * ƒuƒƒbƒNŠJ•Âˆ—
+ * 2015/12/21 ƒ{ƒ^ƒ“‰æ‘œ‚Ì”ñ•\Ž¦ˆ—‚ðs‚í‚È‚¢
  */
 /*
  * Return the classList property of e, if it has one.
