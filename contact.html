@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>ビジネス・企業向け無料ホームページテンプレート tp_biz35</title>
+<title>ポータルサイト お問い合わせ</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="ここにサイト説明を入れます">
 <meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
@@ -23,9 +23,9 @@
 <h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="Sample Company"></a></h1>
 <nav id="menubar">
 <ul>
-<li><a href="company.html">会社概要<span>Company</span></a></li>
-<li><a href="service.html">サービス紹介<span>Service</span></a></li>
-<li><a href="recruit.html">採用情報<span>Recruit</span></a></li>
+<li><a href="company.html">お知らせ<span>News</span></a></li>
+<li><a href="product.html">製品情報<span>Product</span></a></li>
+<li><a href="recruit.html">サポート情報<span>Support</span></a></li>
 <li><a href="contact.html">お問い合わせ<span>Contact</span></a></li>
 </ul>
 </nav>
@@ -34,9 +34,9 @@
 <!--小さな端末用（800px以下端末）メニュー-->
 <nav id="menubar-s">
 <ul>
-<li><a href="company.html">会社概要<span>Company</span></a></li>
-<li><a href="service.html">サービス紹介<span>Service</span></a></li>
-<li><a href="recruit.html">採用情報<span>Recruit</span></a></li>
+<li><a href="company.html">お知らせ<span>News</span></a></li>
+<li><a href="product.html">製品情報<span>Product</span></a></li>
+<li><a href="recruit.html">サポート情報<span>Support</span></a></li>
 <li><a href="contact.html">お問い合わせ<span>Contact</span></a></li>
 </ul>
 </nav>
@@ -190,6 +190,20 @@
 if (OCwindowWidth() < 480) {
 	open_close("menubar_hdr", "menubar");
 }
+
+piAId = '176523';
+piCId = '9382';
+piHostname = 'pi.demo.pardot.com';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
 </script>
 
 </body>
