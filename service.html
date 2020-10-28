@@ -25,7 +25,7 @@
 <nav id="menubar">
 <ul>
 <li><a href="company.html">会社概要<span>Company</span></a></li>
-<li><a href="service.html">サービス紹介<span>Service</span></a></li>
+<li><a href="service.html">製品情報<span>Product</span></a></li>
 <li><a href="recruit.html">採用情報<span>Recruit</span></a></li>
 <li><a href="contact.html">お問い合わせ<span>Contact</span></a></li>
 </ul>
@@ -36,7 +36,7 @@
 <nav id="menubar-s">
 <ul>
 <li><a href="company.html">会社概要<span>Company</span></a></li>
-<li><a href="service.html">サービス紹介<span>Service</span></a></li>
+<li><a href="service.html">製品情報<span>Product</span></a></li>
 <li><a href="recruit.html">採用情報<span>Recruit</span></a></li>
 <li><a href="contact.html">お問い合わせ<span>Contact</span></a></li>
 </ul>
@@ -48,85 +48,20 @@
 
 <section>
 
-<h2>サービスのご案内</h2>
-<p>サービスのご案内。</p>
+<h2>製品情報</h2>
+<p>カタログ・価格表閲覧</p>	
 
 <div class="list">
-<a href="service2.html">
-<h4>サービス名</h4>
-<figure><img src="images/sample1.jpg" alt=""></figure>
-<table>
-<tr>
-<th>商品名</th>
-<td>製品A</td>
-<th>価格</th>
-<td>2,300円</td>
-</tr>
-<tr>
-<th>サイズ</th>
-<td>50kg</td>
-<th>特徴</th>
-<td>製品の特長を書きます。</td>
-</tr>
-</table>
-<p>製品の説明をここに入れます。</p>
+<a href="http://www.hitachi-ap-catalog.com/pdf2/office.pdf" class="pardotTrackClick">
+<h4>カタログ</h4>
+<p>パッケージエアコン 店舗・オフィス用</p>
 </a>
 </div>
-
+	
 <div class="list">
-<a href="service2.html">
-<h4>サービス名</h4>
-<figure><img src="images/sample1.jpg" alt=""></figure>
-<table>
-<tr>
-<th>商品名</th>
-<td>製品A</td>
-<th>価格</th>
-<td>2,300円</td>
-</tr>
-<tr>
-<th>サイズ</th>
-<td>50kg</td>
-<th>特徴</th>
-<td>製品の特長を書きます。</td>
-</tr>
-</table>
-<p>右下の赤い帯のマークはhtml側で直接テキストの変更ができます。色はcssフォルダのstyle.cssで変更可。<br>
-<span class="color1">&lt;span class=&quot;option1&quot;&gt;オプション１&lt;/span&gt;</span><br>
-※IE8以下は斜めには表示されず、横長表示されます。</p>
-<span class="option1">オプション１</span>
-</a>
-</div>
-
-<div class="list">
-<a href="service2.html">
-<h4>サービス名</h4>
-<figure><img src="images/sample1.jpg" alt=""></figure>
-<table>
-<tr>
-<th>商品名</th>
-<td>製品A</td>
-<th>価格</th>
-<td>2,300円</td>
-</tr>
-<tr>
-<th>サイズ</th>
-<td>50kg</td>
-<th>特徴</th>
-<td>製品の特長を書きます。</td>
-</tr>
-</table>
-<p>右下の青い帯のマークはhtml側で直接テキストの変更ができます。色はcssフォルダのstyle.cssで変更可。<br>
-<span class="color1">&lt;span class=&quot;option2&quot;&gt;オプション２&lt;/span&gt;</span><br>
-※IE8以下は斜めには表示されず、横長表示されます。</p>
-<span class="option2">オプション２</span>
-</a>
-</div>
-
-<div class="list">
-<a href="service2.html">
-<h4>サービス名</h4>
-<p>画像なしでも使えます。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。</p>
+<a href="https://go.demo.pardot.com/l/175523/2020-10-09/5znv3/175523/1602222731i2w7zOzy/price_sample.pdf" class="pardotTrackClick">
+<h4>価格表</h4>
+<p>サンプル</p>
 </a>
 </div>
 
@@ -201,6 +136,20 @@
 if (OCwindowWidth() <= 800) {
 	open_close("menubar_hdr", "menubar-s");
 }
+
+piAId = '176523';
+piCId = '9382';
+piHostname = 'pi.demo.pardot.com';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
 </script>
 </body>
 </html>
